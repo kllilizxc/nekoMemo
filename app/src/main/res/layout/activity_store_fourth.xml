@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_store_fourth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/store_background"
+    tools:context="android.nekomem.nekoshopping.Store_fourth">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/store_showcase"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/store_showcase" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/unhappy_shop"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="112dp"
+        android:id="@+id/unhappy"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/unicorn_shop"
+        android:layout_marginEnd="32dp"
+        android:id="@+id/unicorn"
+        android:layout_alignTop="@+id/unhappy"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wool_shop"
+        android:id="@+id/wool"
+        android:layout_marginBottom="114dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/unhappy" />
+
+    <TextView
+        android:text="un-happpy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/unicorn"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/unhappy" />
+
+    <TextView
+        android:text="unicorns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignEnd="@+id/unicorn"
+        android:layout_marginEnd="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="value: 10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/unhappy"
+        android:textColor="#FE7E00"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:text="play-wool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/wool"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/left"
+        android:id="@+id/left"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/paw_music"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/unhappy"
+        android:layout_marginEnd="14dp"
+        android:id="@+id/paw_music" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/symbol4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/symbol4" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/score_panel"
+        android:id="@+id/fish_money"
+        android:layout_alignParentEnd="true"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_alignStart="@+id/fish_money"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="casual"
+        android:id="@+id/money_left" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon_back"
+        android:layout_alignParentTop="true"
+        android:id="@+id/house_home"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:text="value: 30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/symbol4"
+        android:textColor="#FE7E00"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:text="value: 20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FE7E00"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/unicorn"
+        android:layout_alignStart="@+id/textView2" />
+
+</RelativeLayout>

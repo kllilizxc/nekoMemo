@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NekoMemo</string>
+    <string name="text_hint">Add new Todo</string>
+    <string name="toHomeButtonName">Home</string>
+</resources>

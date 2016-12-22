@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "C:\\Users\\54179\\OneDrive\\Documents\\IntelliJIDEAProjects\\NekoMem\\lib\\YalantisTodo\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "C:\\Users\\54179\\OneDrive\\Documents\\IntelliJIDEAProjects\\NekoMem\\lib\\YalantisTodo\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 42,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 43,
+                    "endOffset": 137
+                },
+                "from": {
+                    "file": "C:\\Users\\54179\\OneDrive\\Documents\\IntelliJIDEAProjects\\NekoMem\\lib\\YalantisTodo\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endColumn": 43,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 142,
+                    "endColumn": 47,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "C:\\Users\\54179\\OneDrive\\Documents\\IntelliJIDEAProjects\\NekoMem\\lib\\YalantisTodo\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 47,
+                        "endOffset": 286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endColumn": 55,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "C:\\Users\\54179\\OneDrive\\Documents\\IntelliJIDEAProjects\\NekoMem\\lib\\YalantisTodo\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 246,
+                    "endColumn": 51,
+                    "endOffset": 293
+                },
+                "from": {
+                    "file": "C:\\Users\\54179\\OneDrive\\Documents\\IntelliJIDEAProjects\\NekoMem\\lib\\YalantisTodo\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 298,
+                    "endColumn": 48,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "C:\\Users\\54179\\OneDrive\\Documents\\IntelliJIDEAProjects\\NekoMem\\lib\\YalantisTodo\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 48,
+                        "endOffset": 194
+                    }
+                }
+            }
+        ]
+    }
+]

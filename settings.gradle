@@ -1,0 +1,2 @@
+include ':app', ':YalantisTodo'
+project(':YalantisTodo').projectDir = new File('lib/YalantisTodo')

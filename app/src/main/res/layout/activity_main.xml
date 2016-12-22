@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_todo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/todobackground"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@android:color/transparent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/score_panel"
+                android:adjustViewBounds="true" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="92dp"
+                android:text="@string/app_name"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:fontFamily="casual"/>
+            <ImageView
+                android:id="@+id/toHomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="@string/toHomeButtonName"
+                android:src="@drawable/button1_sushi"
+                android:adjustViewBounds="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <com.yalantis.beamazingtoday.ui.widget.BatRecyclerView
+        android:id="@+id/bat_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        app:cursor_color="@color/colorAccent"
+        app:hint_color="@color/colorAccent"
+        app:plus_color="@color/colorAccent"
+        app:radio_button_color="@color/colorAccent"
+        app:add_button_color="@drawable/selector_button_add"
+        app:hint="@string/text_hint"
+        app:radio_button_res="@drawable/selector_radio_button"/>
+</LinearLayout>
